@@ -124,11 +124,15 @@ button{
     body{
         overflow-y:hidden;
         overflow-x:hidden;
-    }
-    .main-div{
         height:100vh;
         width:100vw;
+    }
+    .main-div{
         display:flex;
+        margin-left:0;
+        margin-right:0;
+        margin-bottom:0;
+        margin-top:0;
         flex-direction:column-reverse;
     }
     .main-div-second{
@@ -140,6 +144,8 @@ button{
     .circle-div{
         width:25vh;
         height:25vh;
+        margin-left:auto;
+        margin-right:auto;
     }
     .div-container{
         margin-left:5vw;
@@ -154,5 +160,8 @@ button{
     .m-d-s-p{
         padding-right:8vw;
         padding-left:8vw;
+    }
+    .c-div-p1{
+        font-size:3rem;
     }
 }
